@@ -47,3 +47,38 @@ sum(10,20,30)
 sum(10,20,30,NA)
 
 sum(10,20,30,na.rm=TRUE)
+
+is.character(string)
+
+x <- is.numeric(int)
+x
+is.logical(boolean)
+is.na(x)
+
+x <- c(1,2,"3")
+x
+result <- x*3
+result <- as.numeric(x)*3
+result
+
+mode(int)
+mode(string)
+
+gender <- c("man","woman","woman","man","man")
+plot(gender)
+
+Ngender <- as.factor(gender)
+table(gender)
+
+plot(Ngender)
+
+mode(Ngender)
+class(Ngender)
+is.factor(Ngender)
+
+Ngender
+
+args(factor)
+
+Ogender <- factor(gender,level=c("woman","man"),ordered=T)
+Ogender
